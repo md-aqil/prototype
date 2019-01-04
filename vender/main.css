@@ -258,8 +258,10 @@ textarea:focus {
 
 .box {
   width: 100%;
-      border-bottom: 1px solid #ececec;
-         min-height: 202px;
+      border-bottom: 1px solid #ececec8c;
+      min-height: 202px;
+      /* padding-bottom: 40px; */
+      margin-bottom: 15px;
 }
 
 .mm-mockup__screen  {
@@ -300,4 +302,9 @@ textarea:focus {
   font-weight: bold;
   font-size: 32px;
   margin: 10px auto;
+}
+
+.mm-mockup--phone-big--portrait .mm-mockup__body {
+    width: 350px;
+    height: 700px;
 }
