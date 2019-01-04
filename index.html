@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rewards</title>
+	<link rel="stylesheet" href="vender/main.css">
+</head>
+<body class="body">
+
+
+	<div class="mockup-center-box">
+		<div class="mm-mockup mm-mockup--phone-big--portrait mm-mockup--white">
+		        <div class="mm-mockup__body">
+		          <div class="mm-mockup__screen mm-mockup__screen--background_image" style=";background-color: #fff;">
+		          	<h4 class="heading">Offers</h4>
+		          	<div class="box">
+		          		<img class="width100" src="vender/img/banner-1.png" alt="">
+		          		<a href="" class="link">Terms & Conditions</a>
+		          		<img class="show" src="vender/img/pop.png" alt="">
+		          	</div>
+		          	<div class="box">
+		          		<img class="width100" src="vender/img/banner-1.png" alt="">
+		          		<a href="" class="link">Terms & Conditions</a>
+		          		<img class="show" src="vender/img/pop.png" alt="">
+
+		          	</div>
+		          	<div class="box">
+		          		<img class="width100" src="vender/img/banner-1.png" alt="">
+		          		<a href="" class="link">Terms & Conditions</a>
+		          		<img class="show" src="vender/img/pop.png" alt="">
+
+		          	</div>
+		          </div>
+		        </div>
+		      </div>
+	</div>
+
+	<script src="vender/jquery.min.js"></script>
+
+	<script>
+		$('.link').click(function(e) {
+			e.preventDefault();
+			$(this).parent('.box').find('.show').slideToggle();
+		})
+	</script>
+</body>
+</html>
